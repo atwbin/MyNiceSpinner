@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">MyNiceSpinner</string>
+
+    <string name="spin_prompt"> 请选择城市 </string>
+
+    <string-array name="cities">
+
+        <item> 北京 </item>
+
+        <item> 上海 </item>
+
+        <item> 南京 </item>
+
+        <item> 乌鲁木齐 </item>
+
+        <item> 哈尔滨 </item>
+
+        <item> 符拉迪沃斯托克 </item>
+
+    </string-array>
+
 </resources>

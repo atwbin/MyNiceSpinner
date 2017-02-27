@@ -6,12 +6,25 @@
     tools:context="com.atwbin.mynicespinner.MainActivity">
 
 
-    <com.atwbin.mynicespinner.NiceSpinner
+    <!--  <com.atwbin.mynicespinner.NiceSpinner
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="20dp" />-->
+
+    <Spinner
+        android:id="@+id/Spinner01"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/search_bg"
+        android:entries="@array/cities"
+        android:gravity="center_horizontal"
+        android:popupBackground="@color/colorPrimary"
+        android:prompt="@string/spin_prompt" />
 
 
 </RelativeLayout>
